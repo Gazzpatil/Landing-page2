@@ -1,0 +1,163 @@
+@font-face {
+    font-family: myfont;
+    src: url(CooperLightBT.ttf);
+    
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: myfont;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: #fff; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+
+}
+
+#nav1{
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    padding: 0px 30px ;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+nav>h1{
+    font-size: 32px;
+    font-weight: 100px;
+}
+#nav2{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+   
+}
+
+#nav2 a{
+    text-decoration: none;
+    color: #222;
+    margin: 20px;
+}
+
+#nav2 a:nth-last-child(1){
+    /* background-color: yellow; */
+    padding: 7px 18px;
+    border-radius: 50px;
+    position: relative;
+    border:1px solid black;
+    overflow: hidden;
+}
+
+#main>h1{
+    font-size: 5.7vw;
+    font-weight: 100;
+    text-transform: capitalize;
+    margin-top:281px;
+    /* background-color: red; */
+    width: 60%;
+    text-align: center;
+    position: relative;
+}
+
+#main>h1::after{
+    content: "";
+    position: absolute;
+    width: 35%;
+    height: 10px;
+    /* background-color: red; */
+    background-image: url(https://thisisdigital.co.uk/dist/images/underline-green.svg );
+    bottom: 2%;
+    background-size: cover;
+    left: 50%;
+    transform: translate(-50%,0);
+
+
+}
+
+#img1{
+    width: 240px;
+    height: 383px;
+    position: absolute;
+    left: 5%;
+    top: 23%;
+   
+}
+
+
+#img2{
+    width: 210px;
+    height: 250px;
+    position: absolute;
+    right: 21.5%;
+    top: 18;
+    z-index: -1;
+    
+}
+
+#img3{
+    width: 165px;
+    height: 165px;
+    position: absolute;
+    margin-top: 40%;
+    right: 10%;
+ 
+}
+
+#sub{
+    position: absolute;
+    top: 70%;
+    width: 190px;
+    height: 80px;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+     /* justify-content: center; */
+    left:44%;
+    
+   
+}
+
+#sub #find{
+    font-family:myfont ;
+    font-weight: 600;
+}
+
+#sub #icon{
+    
+    width: 50px;
+    height: 50px;
+    /* background-color: yellowgreen; */
+    border-radius: 40px;
+    /* border:2px solid aqua; */
+    text-align: center;
+    padding: 17px 0px  ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
